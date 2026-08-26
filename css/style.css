@@ -1,0 +1,61 @@
+*{box-sizing:border-box}body{
+    background:#b8d8c2;color:#17202a;
+    font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+    
+    .app-nav{background:#446654}
+    .navbar-brand{font-size:1.5rem;letter-spacing:-.5px}
+    
+    .navbar-brand span{color:#d4bae0}
+    .nav-link{font-weight:600}
+    .hero{min-height:500px;display:grid;
+    grid-template-columns:1.4fr .6fr;gap:40px;align-items:center}
+    .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.14em;color:#6c7480;margin-bottom:10px}
+    .hero h1{font-size:clamp(2.6rem,6vw,5rem);line-height:.98;letter-spacing:-.06em;font-weight:850}
+    .hero h1 span{color:#752c9c}
+    .lead{max-width:650px;color:#66707d;font-size:1.08rem}
+    .btn-primary{background:#752c9c;border-color:#9a3ecb;font-weight:700}
+    .hero-card{background:#fff;border:1px solid #e1e5ea;border-radius:28px;padding:28px;box-shadow:0 18px 45px rgba(18,24,38,.08);text-align:center}
+    .hero-card p{font-size:.7rem;letter-spacing:.14em;color:#7a8491;font-weight:800}
+    .hero-card strong{display:block;font-size:1.35rem}
+    .hero-card small{color:#747d88}
+    .vinyl{width:190px;height:190px;border-radius:50%;background:#171b24;margin:0 auto 24px;position:relative;border:15px solid #2b303b}
+    .vinyl:after{content:"";position:absolute;inset:67px;border-radius:50%;background:#f2b134}
+    .filters,.summary{background:#fff;border:1px solid #e1e5ea;border-radius:20px}
+    .filters{box-shadow:0 8px 25px rgba(18,24,38,.04)}
+    .form-label{font-size:.78rem;font-weight:800;color:#59636f}
+    .form-control,
+    .form-select{border-color:#d8dde5;border-radius:12px;padding:.72rem .85rem}
+    .section-title{font-weight:850;letter-spacing:-.03em}
+    .muted{color:#737d89}
+    .music-card{height:100%;background:#fff;border:1px solid #e1e5ea;border-radius:20px;overflow:hidden;transition:.2s;box-shadow:0 8px 20px rgba(18,24,38,.04)}
+    .music-card:hover{transform:translateY(-4px);box-shadow:0 15px 35px rgba(18,24,38,.1)}.cover{width:100%;aspect-ratio:1/1;object-fit:cover}
+    .music-body{padding:18px}
+    .genre{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.06em;background:#eef2f7;padding:5px 9px;border-radius:99px}
+    .music-title{font-size:1.08rem;font-weight:800;margin:12px 0 3px}
+    .artist{color:#717b87;font-size:.9rem}.rating{font-weight:800}
+    .card-actions{display:flex;gap:8px;margin-top:15px}
+    .card-actions .btn{flex:1;font-weight:700;border-radius:10px}
+    .empty{padding:70px 20px;text-align:center;color:#7b8590}
+    .detail-card{background:#fff;border:1px solid #e1e5ea;border-radius:28px;padding:clamp(20px,5vw,55px);display:grid;grid-template-columns:minmax(260px,420px) 1fr;gap:55px;align-items:center;box-shadow:0 12px 40px rgba(18,24,38,.06)}
+    .detail-cover{width:100%;border-radius:20px}
+    .detail-card h1{font-size:clamp(2rem,5vw,4rem);font-weight:850;letter-spacing:-.05em}
+    .detail-meta{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+    .playlist-head{display:flex;justify-content:space-between;align-items:end;gap:20px}
+    .playlist-item{background:#fff;border:1px solid #e1e5ea;border-radius:18px;padding:14px;display:flex;align-items:center;gap:16px;margin-bottom:12px}
+    .playlist-item img{width:74px;height:74px;border-radius:12px;object-fit:cover}
+    .playlist-item h4{font-size:1rem;font-weight:800;margin:0}
+    .playlist-item p{margin:3px 0 0;color:#77818d}
+    .qty{display:flex;align-items:center;gap:8px;margin-left:auto}
+    .qty button{width:32px;height:32px;border-radius:9px;border:1px solid #d8dde5;background:#fff;font-weight:800}
+    .summary{padding:24px;position:sticky;top:90px}
+    .summary h3{font-weight:850}
+    .summary-row{display:flex;justify-content:space-between;padding:12px 0;color:#66707d}
+    .summary-row strong{color:#17202a}
+    .footer{background:#121826;color:#bfc6d0;font-size:.85rem}
+    .toast-msg{position:fixed;right:20px;bottom:20px;background:#121826;color:#fff;padding:13px 18px;border-radius:12px;z-index:1000}@media(max-width:850px){
+        .hero,.detail-card{grid-template-columns:1fr}
+        .hero{padding-top:45px}
+    .hero-card{max-width:430px;margin:auto}
+    
+    .playlist-head{align-items:start;flex-direction:column}
+    .summary{position:static}}
